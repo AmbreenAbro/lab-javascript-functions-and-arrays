@@ -157,6 +157,8 @@ function sum(mixedArr) {
   return total;
 }
 
+<br>
+
 
 Iteration #4: Calculate the average
 Level 1: Array of numbers
@@ -166,6 +168,7 @@ function averageNumbers(numbers) {
   
   return sumNumbers(numbers) / numbers.length;
 }
+
 <br>
 
 
@@ -188,6 +191,7 @@ Bonus - Iteration #4.1: A generic avg() function
 
 <br>
 
+
 function avg(arr) {
   if (arr.length === 0) return null;
   
@@ -195,6 +199,7 @@ function avg(arr) {
   return total / arr.length;
 }
 
+<br>
 
 Iteration #5: Unique arrays
 
