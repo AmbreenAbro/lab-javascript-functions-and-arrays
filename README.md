@@ -104,6 +104,7 @@ function maxOfTwoNumbers(a, b) {
   return a > b ? a : b;
 }
 
+<br>
 
 Iteration #2: Find the longest word
 
@@ -122,6 +123,7 @@ function findLongestWord(words) {
   return longestWord;
 }
 
+<br>
 
 Iteration #3: Calculate the sum
 
@@ -134,6 +136,8 @@ function sumNumbers(numbers) {
   
   return sum;
 }
+
+<br>
 
 Bonus - Iteration #3.1: A generic sum() function
 
@@ -162,6 +166,7 @@ function averageNumbers(numbers) {
   
   return sumNumbers(numbers) / numbers.length;
 }
+<br>
 
 Level 2: Array of strings
 
@@ -178,6 +183,8 @@ function averageWordLength(words) {
 }
 
 Bonus - Iteration #4.1: A generic avg() function
+
+<br>
 
 function avg(arr) {
   if (arr.length === 0) return null;
@@ -202,6 +209,8 @@ function uniquifyArray(words) {
   return uniqueWords;
 }
 
+<br>
+
 Iteration #6: Find elements
 
 function doesWordExist(words, wordToSearch) {
@@ -216,6 +225,8 @@ function doesWordExist(words, wordToSearch) {
   return false;
 }
 
+<br>
+
 Iteration #7: Count repetition
 
 function howManyTimes(words, wordToSearch) {
@@ -229,6 +240,8 @@ function howManyTimes(words, wordToSearch) {
 
   return count;
 }
+
+<br>
 
 Bonus - Iteration #8: Product of adjacent numbers
 
@@ -254,6 +267,8 @@ function greatestProduct(matrix) {
   return maxProduct;
 }
 
+<br>
+
 Bonus - Iteration #8.1: Product of diagonals
 
 function greatestProductOfDiagonals(matrix) {
@@ -278,6 +293,8 @@ function greatestProductOfDiagonals(matrix) {
   return maxProduct;
 }
 
+<br>
+
 Testing
 
 Make sure to fork the repository.
@@ -288,6 +305,8 @@ Run npm run test:watch to run the tests and check your code.
 Once all tests pass, add, commit, and push your code:
 bash
 
+
+<br>
 
 git add .
 git commit -m "Solved lab"
