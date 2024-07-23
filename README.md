@@ -107,6 +107,7 @@ function maxOfTwoNumbers(a, b) {
 
 Iteration #2: Find the longest word
 
+
 function findLongestWord(words) {
   if (words.length === 0) return null;
   
@@ -121,6 +122,7 @@ function findLongestWord(words) {
   return longestWord;
 }
 
+
 Iteration #3: Calculate the sum
 
 function sumNumbers(numbers) {
@@ -132,6 +134,7 @@ function sumNumbers(numbers) {
   
   return sum;
 }
+
 Bonus - Iteration #3.1: A generic sum() function
 
 function sum(mixedArr) {
@@ -150,6 +153,7 @@ function sum(mixedArr) {
   return total;
 }
 
+
 Iteration #4: Calculate the average
 Level 1: Array of numbers
 
@@ -158,6 +162,7 @@ function averageNumbers(numbers) {
   
   return sumNumbers(numbers) / numbers.length;
 }
+
 Level 2: Array of strings
 
 function averageWordLength(words) {
@@ -171,6 +176,7 @@ function averageWordLength(words) {
 
   return totalLength / words.length;
 }
+
 Bonus - Iteration #4.1: A generic avg() function
 
 function avg(arr) {
@@ -179,6 +185,7 @@ function avg(arr) {
   let total = sum(arr);
   return total / arr.length;
 }
+
 Iteration #5: Unique arrays
 
 function uniquifyArray(words) {
@@ -194,6 +201,7 @@ function uniquifyArray(words) {
 
   return uniqueWords;
 }
+
 Iteration #6: Find elements
 
 function doesWordExist(words, wordToSearch) {
@@ -207,6 +215,7 @@ function doesWordExist(words, wordToSearch) {
 
   return false;
 }
+
 Iteration #7: Count repetition
 
 function howManyTimes(words, wordToSearch) {
@@ -220,6 +229,7 @@ function howManyTimes(words, wordToSearch) {
 
   return count;
 }
+
 Bonus - Iteration #8: Product of adjacent numbers
 
 function greatestProduct(matrix) {
@@ -243,6 +253,7 @@ function greatestProduct(matrix) {
 
   return maxProduct;
 }
+
 Bonus - Iteration #8.1: Product of diagonals
 
 function greatestProductOfDiagonals(matrix) {
@@ -268,6 +279,7 @@ function greatestProductOfDiagonals(matrix) {
 }
 
 Testing
+
 Make sure to fork the repository.
 Clone the repository to your local machine.
 Implement the functions in src/functions-and-arrays.js.
@@ -276,10 +288,12 @@ Run npm run test:watch to run the tests and check your code.
 Once all tests pass, add, commit, and push your code:
 bash
 
+
 git add .
 git commit -m "Solved lab"
 git push origin master
 Create a Pull Request for review.
+
 
 By following this structured approach, you can methodically solve each iteration and ensure your code is working correctly by passing the provided tests.
 
