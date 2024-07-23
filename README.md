@@ -168,6 +168,7 @@ function averageNumbers(numbers) {
 }
 <br>
 
+
 Level 2: Array of strings
 
 function averageWordLength(words) {
@@ -184,6 +185,7 @@ function averageWordLength(words) {
 
 Bonus - Iteration #4.1: A generic avg() function
 
+
 <br>
 
 function avg(arr) {
@@ -192,6 +194,7 @@ function avg(arr) {
   let total = sum(arr);
   return total / arr.length;
 }
+
 
 Iteration #5: Unique arrays
 
@@ -209,6 +212,7 @@ function uniquifyArray(words) {
   return uniqueWords;
 }
 
+
 <br>
 
 Iteration #6: Find elements
@@ -224,6 +228,7 @@ function doesWordExist(words, wordToSearch) {
 
   return false;
 }
+
 
 <br>
 
